@@ -1,0 +1,32 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(87, 87, 87);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-image:linear-gradient(#25b99a99,#50bda599,#fff);
+}
+#countDown-container{
+    display: flex;
+    justify-content: center;
+}
+#leftTime{
+    display: flex;
+    justify-content: center;
+}
+.parts{
+    width: 150px;
+    
+    
+}
+.nums{
+    font-size: 5rem;
+    font-weight: 100;
+
+}
+p{
+    font-size: 1.5rem;
+}
